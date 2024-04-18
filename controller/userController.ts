@@ -2,7 +2,7 @@ import express from 'express';
 import UserService from "../service/UserService";
 
 
-
+console.log("userController.ts");
 
 class UserController{
     async getUserById(req: express.Request, res: express.Response) {
